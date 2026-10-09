@@ -1,0 +1,968 @@
+{
+  "entries": [
+    {
+      "id": "builtwith",
+      "name": "BuiltWith",
+      "url": "https://builtwith.com",
+      "founder": "Gary Brewer",
+      "team_size": "1",
+      "revenue_band": "$100K+ MRR",
+      "revenue_note": "~$14M ARR self-reported",
+      "pricing_model": "Subscription + API",
+      "price_point": "$295-$995/mo",
+      "tech_stack": "Not publicly disclosed",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "SEO",
+        "Word of mouth"
+      ],
+      "description": "Technology profiler: look up what any website is built with.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "headshotpro",
+      "name": "HeadshotPro",
+      "url": "https://www.headshotpro.com",
+      "founder": "Danny Postma",
+      "team_size": "1",
+      "revenue_band": "$100K+ MRR",
+      "revenue_note": "~$3.6M ARR (~$300K/mo) self-reported",
+      "pricing_model": "One-time purchase",
+      "price_point": "$29-$99",
+      "tech_stack": "Not publicly disclosed",
+      "niche": "AI Tools",
+      "acquisition_channels": [
+        "SEO",
+        "Paid ads"
+      ],
+      "description": "AI-generated professional headshots.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "photopea",
+      "name": "Photopea",
+      "url": "https://www.photopea.com",
+      "founder": "Ivan Kutskir",
+      "team_size": "1",
+      "revenue_band": "$100K+ MRR",
+      "revenue_note": "~$3M ARR self-reported",
+      "pricing_model": "Freemium subscription",
+      "price_point": "$3.33-$9.99/mo",
+      "tech_stack": "JavaScript (in-browser)",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "SEO",
+        "Word of mouth"
+      ],
+      "description": "Free browser-based Photoshop alternative.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "photo-ai",
+      "name": "Photo AI",
+      "url": "https://photoai.com",
+      "founder": "Pieter Levels",
+      "team_size": "1",
+      "revenue_band": "$100K+ MRR",
+      "revenue_note": "~$1.65M ARR (~$138K/mo) self-reported",
+      "pricing_model": "One-time purchase",
+      "price_point": "$39-$99",
+      "tech_stack": "PHP (single file)",
+      "niche": "AI Tools",
+      "acquisition_channels": [
+        "X/Twitter audience",
+        "HN launches"
+      ],
+      "description": "AI photo generator and headshots.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "testimonialto",
+      "name": "Testimonial.to",
+      "url": "https://testimonial.to",
+      "founder": "Damon Chen",
+      "team_size": "1",
+      "revenue_band": "$100K+ MRR",
+      "revenue_note": "~$2M ARR (~$170K/mo) self-reported",
+      "pricing_model": "Subscription",
+      "price_point": "$50-$200/mo",
+      "tech_stack": "Next.js, Vercel",
+      "niche": "Marketing",
+      "acquisition_channels": [
+        "X/Twitter build-in-public",
+        "AppSumo"
+      ],
+      "description": "Collect and display video/text testimonials.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "typingmind",
+      "name": "TypingMind",
+      "url": "https://www.typingmind.com",
+      "founder": "Tony Dinh",
+      "team_size": "1",
+      "revenue_band": "$100K+ MRR",
+      "revenue_note": "~$1.8M ARR (~$150K/mo) self-reported",
+      "pricing_model": "One-time license",
+      "price_point": "$39-$79",
+      "tech_stack": "Not publicly disclosed",
+      "niche": "AI Tools",
+      "acquisition_channels": [
+        "X/Twitter",
+        "Product Hunt"
+      ],
+      "description": "Better UI client for ChatGPT and other LLMs.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "pallyy",
+      "name": "Pallyy",
+      "url": "https://pallyy.com",
+      "founder": "Tim Bennetto",
+      "team_size": "1",
+      "revenue_band": "$50-100K MRR",
+      "revenue_note": "~$1.2M ARR (~$85K/mo) self-reported",
+      "pricing_model": "Subscription",
+      "price_point": "$15-$29/mo",
+      "tech_stack": "Not publicly disclosed",
+      "niche": "Marketing",
+      "acquisition_channels": [
+        "AppSumo",
+        "SEO"
+      ],
+      "description": "Social media scheduling and analytics.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "bannerbear",
+      "name": "Bannerbear",
+      "url": "https://www.bannerbear.com",
+      "founder": "Jon Yongfook",
+      "team_size": "1",
+      "revenue_band": "$50-100K MRR",
+      "revenue_note": "~$1M ARR (~$80K/mo) self-reported",
+      "pricing_model": "Subscription (usage-based)",
+      "price_point": "$49-$399/mo",
+      "tech_stack": "Ruby on Rails",
+      "niche": "Marketing",
+      "acquisition_channels": [
+        "SEO/Content",
+        "X/Twitter"
+      ],
+      "description": "API for auto-generating social images and videos.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "remote-ok",
+      "name": "Remote OK",
+      "url": "https://remoteok.com",
+      "founder": "Pieter Levels",
+      "team_size": "1",
+      "revenue_band": "$20-50K MRR",
+      "revenue_note": "~$500K ARR (~$41K/mo) self-reported",
+      "pricing_model": "Job post listings",
+      "price_point": "$499-$999/post",
+      "tech_stack": "PHP (single file)",
+      "niche": "Jobs",
+      "acquisition_channels": [
+        "SEO",
+        "Community"
+      ],
+      "description": "Remote job board.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "interior-ai",
+      "name": "Interior AI",
+      "url": "https://interiorai.com",
+      "founder": "Pieter Levels",
+      "team_size": "1",
+      "revenue_band": "$20-50K MRR",
+      "revenue_note": "~$480K ARR (~$40K/mo) self-reported",
+      "pricing_model": "Subscription",
+      "price_point": "$29-$99/mo",
+      "tech_stack": "PHP (single file)",
+      "niche": "AI Tools",
+      "acquisition_channels": [
+        "X/Twitter audience"
+      ],
+      "description": "AI interior design renders.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "pdfai",
+      "name": "PDF.ai",
+      "url": "https://pdf.ai",
+      "founder": "Damon Chen",
+      "team_size": "1",
+      "revenue_band": "$20-50K MRR",
+      "revenue_note": "~$400K ARR self-reported",
+      "pricing_model": "Subscription",
+      "price_point": "$15-$30/mo",
+      "tech_stack": "Next.js",
+      "niche": "AI Tools",
+      "acquisition_channels": [
+        "X/Twitter"
+      ],
+      "description": "Chat with any PDF using AI.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "nomad-list",
+      "name": "Nomad List",
+      "url": "https://nomadlist.com",
+      "founder": "Pieter Levels",
+      "team_size": "1",
+      "revenue_band": "$20-50K MRR",
+      "revenue_note": "~$264K ARR (~$22K/mo) self-reported",
+      "pricing_model": "Membership",
+      "price_point": "$99-$299/yr",
+      "tech_stack": "PHP (single file)",
+      "niche": "Travel",
+      "acquisition_channels": [
+        "Community",
+        "X/Twitter"
+      ],
+      "description": "City rankings and community for digital nomads.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "carrd",
+      "name": "Carrd",
+      "url": "https://carrd.co",
+      "founder": "AJ (solo founder)",
+      "team_size": "1",
+      "revenue_band": "$50-100K MRR",
+      "revenue_note": "$1M+ ARR reported",
+      "pricing_model": "Freemium subscription",
+      "price_point": "$19-$49/yr",
+      "tech_stack": "Custom (no framework)",
+      "niche": "No-Code",
+      "acquisition_channels": [
+        "SEO",
+        "Word of mouth",
+        "Product Hunt"
+      ],
+      "description": "Simple one-page website builder.",
+      "verified_source": "Medium micro-SaaS guide (public reports)"
+    },
+    {
+      "id": "zigpoll",
+      "name": "Zigpoll",
+      "url": "https://www.zigpoll.com",
+      "founder": "Jason Zigelbaum",
+      "team_size": "1",
+      "revenue_band": "$100K+ MRR",
+      "revenue_note": "~$1.7M ARR (~$142K/mo) self-reported",
+      "pricing_model": "Subscription",
+      "price_point": "$29-$99/mo",
+      "tech_stack": "Not publicly disclosed",
+      "niche": "E-commerce",
+      "acquisition_channels": [
+        "Shopify App Store (90%)",
+        "Reviews"
+      ],
+      "description": "Post-purchase surveys for Shopify stores.",
+      "verified_source": "Niche Pursuits interview"
+    },
+    {
+      "id": "tally",
+      "name": "Tally",
+      "url": "https://tally.so",
+      "founder": "Filip Minev & Mariana",
+      "team_size": "2",
+      "revenue_band": "$50-100K MRR",
+      "revenue_note": "Publicly reported 7-figure ARR",
+      "pricing_model": "Freemium subscription",
+      "price_point": "$29-$99/mo",
+      "tech_stack": "Not publicly disclosed",
+      "niche": "No-Code",
+      "acquisition_channels": [
+        "Product Hunt",
+        "Word of mouth"
+      ],
+      "description": "Free-ish form builder, Notion-like simplicity.",
+      "verified_source": "Founder interviews"
+    },
+    {
+      "id": "transistorfm",
+      "name": "Transistor.fm",
+      "url": "https://transistor.fm",
+      "founder": "Jon Buda & Justin Jackson",
+      "team_size": "2",
+      "revenue_band": "$50-100K MRR",
+      "revenue_note": "Publicly reported $1M+ ARR",
+      "pricing_model": "Subscription",
+      "price_point": "$19-$99/mo",
+      "tech_stack": "Ruby on Rails",
+      "niche": "Podcasting",
+      "acquisition_channels": [
+        "Content marketing",
+        "Podcasts"
+      ],
+      "description": "Podcast hosting and analytics.",
+      "verified_source": "Founder interviews (Build & Launch podcast)"
+    },
+    {
+      "id": "fathom-analytics",
+      "name": "Fathom Analytics",
+      "url": "https://usefathom.com",
+      "founder": "Jack Ellis (+ small team)",
+      "team_size": "2-5",
+      "revenue_band": "$50-100K MRR",
+      "revenue_note": "Publicly reported $1M+ ARR",
+      "pricing_model": "Subscription",
+      "price_point": "$14-$140/mo",
+      "tech_stack": "PHP/Laravel, Vue",
+      "niche": "Analytics",
+      "acquisition_channels": [
+        "Privacy positioning",
+        "Content"
+      ],
+      "description": "Privacy-first website analytics.",
+      "verified_source": "Founder interviews"
+    },
+    {
+      "id": "simple-analytics",
+      "name": "Simple Analytics",
+      "url": "https://www.simpleanalytics.com",
+      "founder": "Adriaan van Rossum",
+      "team_size": "1-2",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "Publicly reported 6-figure ARR",
+      "pricing_model": "Subscription",
+      "price_point": "$9-$49/mo",
+      "tech_stack": "Not publicly disclosed",
+      "niche": "Analytics",
+      "acquisition_channels": [
+        "HN launches",
+        "Privacy community"
+      ],
+      "description": "Minimal privacy-friendly analytics.",
+      "verified_source": "Founder blog"
+    },
+    {
+      "id": "buttondown",
+      "name": "Buttondown",
+      "url": "https://buttondown.com",
+      "founder": "Justin Duke",
+      "team_size": "1",
+      "revenue_band": "$20-50K MRR",
+      "revenue_note": "Publicly reported $500K+ ARR",
+      "pricing_model": "Freemium subscription",
+      "price_point": "$9-$79/mo",
+      "tech_stack": "Python/Django",
+      "niche": "Email",
+      "acquisition_channels": [
+        "X/Twitter",
+        "HN"
+      ],
+      "description": "Minimalist newsletter platform for developers.",
+      "verified_source": "Founder interviews"
+    },
+    {
+      "id": "savvycal",
+      "name": "SavvyCal",
+      "url": "https://savvycal.com",
+      "founder": "Derrick Reimer (+ small team)",
+      "team_size": "2-5",
+      "revenue_band": "$20-50K MRR",
+      "revenue_note": "Publicly reported 7-figure ARR",
+      "pricing_model": "Subscription",
+      "price_point": "$12-$20/user/mo",
+      "tech_stack": "Ruby on Rails",
+      "niche": "Productivity",
+      "acquisition_channels": [
+        "Content",
+        "X/Twitter"
+      ],
+      "description": "Scheduling links with a better UX than Calendly.",
+      "verified_source": "Founder interviews"
+    },
+    {
+      "id": "feedhive",
+      "name": "FeedHive",
+      "url": "https://www.feedhive.com",
+      "founder": "Simon Hoiberg",
+      "team_size": "1",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "Publicly reported 6-figure ARR",
+      "pricing_model": "Subscription",
+      "price_point": "$19-$49/mo",
+      "tech_stack": "Not publicly disclosed",
+      "niche": "Marketing",
+      "acquisition_channels": [
+        "X/Twitter",
+        "AppSumo"
+      ],
+      "description": "AI social media management and scheduling.",
+      "verified_source": "Founder interviews"
+    },
+    {
+      "id": "blackmagicso",
+      "name": "Blackmagic.so",
+      "url": "https://blackmagic.so",
+      "founder": "Tony Dinh",
+      "team_size": "1",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "Publicly reported 6-figure ARR",
+      "pricing_model": "Subscription",
+      "price_point": "$8-$20/mo",
+      "tech_stack": "Not publicly disclosed",
+      "niche": "Marketing",
+      "acquisition_channels": [
+        "X/Twitter"
+      ],
+      "description": "Twitter/X analytics and growth tools.",
+      "verified_source": "Founder (public MRR posts)"
+    },
+    {
+      "id": "dubco",
+      "name": "Dub.co",
+      "url": "https://dub.co",
+      "founder": "Steven Tey",
+      "team_size": "1",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "Open-source, publicly reported growing MRR",
+      "pricing_model": "Freemium subscription",
+      "price_point": "$24-$99/mo",
+      "tech_stack": "Next.js, open source",
+      "niche": "Marketing",
+      "acquisition_channels": [
+        "X/Twitter build-in-public",
+        "Open source"
+      ],
+      "description": "Modern link shortener with analytics.",
+      "verified_source": "Founder (public)"
+    },
+    {
+      "id": "devutils",
+      "name": "DevUtils",
+      "url": "https://devutils.com",
+      "founder": "Tony Dinh",
+      "team_size": "1",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "~$100K ARR self-reported",
+      "pricing_model": "One-time license",
+      "price_point": "$24",
+      "tech_stack": "Native macOS",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "Mac App Store"
+      ],
+      "description": "All-in-one Mac toolbox for developers.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "datafast",
+      "name": "DataFast",
+      "url": "https://datafa.st",
+      "founder": "Marc Lou",
+      "team_size": "1",
+      "revenue_band": "$20-50K MRR",
+      "revenue_note": "~$500K ARR self-reported",
+      "pricing_model": "One-time purchase",
+      "price_point": "$49-$149",
+      "tech_stack": "Next.js",
+      "niche": "Analytics",
+      "acquisition_channels": [
+        "X/Twitter build-in-public"
+      ],
+      "description": "Privacy-friendly analytics for indie hackers.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "shipfast",
+      "name": "ShipFast",
+      "url": "https://shipfa.st",
+      "founder": "Marc Lou",
+      "team_size": "1",
+      "revenue_band": "$20-50K MRR",
+      "revenue_note": "~$600K ARR; $1.27M lifetime (TrustMRR)",
+      "pricing_model": "One-time purchase",
+      "price_point": "$169-$269",
+      "tech_stack": "Next.js",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "X/Twitter build-in-public",
+        "YouTube"
+      ],
+      "description": "Next.js boilerplate to ship startups fast.",
+      "verified_source": "TrustMRR dataset; founder (public)"
+    },
+    {
+      "id": "trustmrr",
+      "name": "TrustMRR",
+      "url": "https://trustmrr.com",
+      "founder": "Marc Lou",
+      "team_size": "1",
+      "revenue_band": "$20-50K MRR",
+      "revenue_note": "~$400K ARR self-reported",
+      "pricing_model": "One-time purchase",
+      "price_point": "$49-$99",
+      "tech_stack": "Next.js",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "X/Twitter"
+      ],
+      "description": "Verified MRR leaderboard for indie products.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "leave-me-alone",
+      "name": "Leave Me Alone",
+      "url": "https://leavemealone.app",
+      "founder": "2-person team",
+      "team_size": "2",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "Publicly reported 6-figure ARR",
+      "pricing_model": "Subscription",
+      "price_point": "$4-$9/mo",
+      "tech_stack": "Not publicly disclosed",
+      "niche": "Productivity",
+      "acquisition_channels": [
+        "HN",
+        "Product Hunt"
+      ],
+      "description": "Bulk unsubscribe from marketing emails.",
+      "verified_source": "Founder interviews"
+    },
+    {
+      "id": "plausible",
+      "name": "Plausible",
+      "url": "https://plausible.io",
+      "founder": "Marko Saric & Uku Taht",
+      "team_size": "2-5",
+      "revenue_band": "$50-100K MRR",
+      "revenue_note": "$100K+ ARR early; now multi-$M, small team",
+      "pricing_model": "Subscription",
+      "price_point": "$9-$69/mo",
+      "tech_stack": "Elixir, open source",
+      "niche": "Analytics",
+      "acquisition_channels": [
+        "HN launches",
+        "Open source",
+        "Privacy positioning"
+      ],
+      "description": "Lightweight privacy-friendly analytics.",
+      "verified_source": "Founder interviews"
+    },
+    {
+      "id": "sigentra",
+      "name": "Sigentra",
+      "url": "https://sigentra.ai",
+      "founder": "Solo founder",
+      "team_size": "1",
+      "revenue_band": "$1-5K MRR",
+      "revenue_note": "$3,200 MRR with public Stripe proof",
+      "pricing_model": "Subscription",
+      "price_point": "$20/mo",
+      "tech_stack": "Not publicly disclosed",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "SEO",
+        "Indie communities"
+      ],
+      "description": "Autonomous website compliance scanning (accessibility, GDPR, cookies).",
+      "verified_source": "ebizfacts.com (Stripe-verified)"
+    },
+    {
+      "id": "centori",
+      "name": "Centori",
+      "url": "https://centori.io",
+      "founder": "Tyler Scionti",
+      "team_size": "1",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "$14K MRR self-reported",
+      "pricing_model": "Service + software",
+      "price_point": "$500+/mo",
+      "tech_stack": "Not publicly disclosed",
+      "niche": "Marketing",
+      "acquisition_channels": [
+        "Content marketing",
+        "SEO"
+      ],
+      "description": "SEO content service + software for founders.",
+      "verified_source": "Indie Hackers interview"
+    },
+    {
+      "id": "hypefury",
+      "name": "Hypefury",
+      "url": "https://hypefury.com",
+      "founder": "Yannick Veys (+ small team)",
+      "team_size": "2-5",
+      "revenue_band": "$20-50K MRR",
+      "revenue_note": "Publicly reported $1M+ ARR",
+      "pricing_model": "Subscription",
+      "price_point": "$19-$49/mo",
+      "tech_stack": "Not publicly disclosed",
+      "niche": "Marketing",
+      "acquisition_channels": [
+        "X/Twitter",
+        "Affiliates"
+      ],
+      "description": "Twitter/X growth and scheduling tool.",
+      "verified_source": "Founder interviews"
+    },
+    {
+      "id": "statamic",
+      "name": "Statamic",
+      "url": "https://statamic.com",
+      "founder": "Jack McDade & Jason Varga",
+      "team_size": "2",
+      "revenue_band": "$20-50K MRR",
+      "revenue_note": "Publicly reported 7-figure revenue",
+      "pricing_model": "Paid licenses",
+      "price_point": "$99-$259/site",
+      "tech_stack": "PHP/Laravel",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "Laravel community"
+      ],
+      "description": "Flat-file CMS for Laravel developers.",
+      "verified_source": "Founder interviews"
+    },
+    {
+      "id": "kirby",
+      "name": "Kirby",
+      "url": "https://getkirby.com",
+      "founder": "Bastian Allgeier (+ small team)",
+      "team_size": "2-5",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "Publicly reported 6-figure revenue",
+      "pricing_model": "Paid licenses",
+      "price_point": "$99-$399/site",
+      "tech_stack": "PHP",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "Design community",
+        "Word of mouth"
+      ],
+      "description": "File-based CMS loved by designers.",
+      "verified_source": "Founder interviews"
+    },
+    {
+      "id": "ploi",
+      "name": "Ploi",
+      "url": "https://ploi.io",
+      "founder": "Dennis Paagman",
+      "team_size": "1-2",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "Publicly reported 6-figure ARR",
+      "pricing_model": "Subscription",
+      "price_point": "$12-$49/mo",
+      "tech_stack": "PHP/Laravel",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "Laravel community"
+      ],
+      "description": "Server management for PHP developers.",
+      "verified_source": "Founder interviews"
+    },
+    {
+      "id": "adblock",
+      "name": "AdBlock",
+      "url": "https://getadblock.com",
+      "founder": "Michael Gundlach",
+      "team_size": "1",
+      "revenue_band": "$100K+ MRR",
+      "revenue_note": "$4M ARR self-reported",
+      "pricing_model": "Freemium (donations + premium)",
+      "price_point": "Free-$5/mo",
+      "tech_stack": "Browser extension",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "Chrome Web Store organic"
+      ],
+      "description": "The original ad blocker extension.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "sidekiq",
+      "name": "Sidekiq",
+      "url": "https://sidekiq.org",
+      "founder": "Mike Perham",
+      "team_size": "1",
+      "revenue_band": "$100K+ MRR",
+      "revenue_note": "$3-5M ARR self-reported (Pro & Enterprise)",
+      "pricing_model": "Paid licenses",
+      "price_point": "$99-$999/yr",
+      "tech_stack": "Ruby",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "Ruby community",
+        "Word of mouth"
+      ],
+      "description": "Background job processing for Ruby.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "vuejs-/-vite-(sponsorships)",
+      "name": "Vue.js / Vite (sponsorships)",
+      "url": "https://vuejs.org",
+      "founder": "Evan You",
+      "team_size": "1",
+      "revenue_band": "$20-50K MRR",
+      "revenue_note": "~$500K ARR via sponsorships",
+      "pricing_model": "Sponsorships",
+      "price_point": "N/A",
+      "tech_stack": "JavaScript",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "GitHub",
+        "Open source"
+      ],
+      "description": "Progressive JS framework + build tool.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "livewire-/-alpinejs",
+      "name": "Livewire / Alpine.js",
+      "url": "https://livewire.laravel.com",
+      "founder": "Caleb Porzio",
+      "team_size": "1",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "$200K+ ARR self-reported",
+      "pricing_model": "Screencasts + sponsorships",
+      "price_point": "$99/yr",
+      "tech_stack": "PHP/JavaScript",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "Laravel community"
+      ],
+      "description": "Reactive Laravel components + JS framework.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "checker-plus",
+      "name": "Checker Plus",
+      "url": "https://jasonsavard.com",
+      "founder": "Jason Savard",
+      "team_size": "1",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "~$200K ARR self-reported",
+      "pricing_model": "Donations + premium",
+      "price_point": "Free-$10",
+      "tech_stack": "Browser extension",
+      "niche": "Productivity",
+      "acquisition_channels": [
+        "Chrome Web Store organic"
+      ],
+      "description": "Gmail/Calendar/Drive checker extensions.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "karafka",
+      "name": "Karafka",
+      "url": "https://karafka.io",
+      "founder": "Maciej Mensfeld",
+      "team_size": "1",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "~$150-300K ARR (Pro) self-reported",
+      "pricing_model": "Paid Pro license",
+      "price_point": "$99-$499/mo",
+      "tech_stack": "Ruby",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "Ruby community"
+      ],
+      "description": "Kafka client for Ruby with commercial Pro tier.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "unocss-/-vitest-/-vueuse",
+      "name": "UnoCSS / Vitest / VueUse",
+      "url": "https://unocss.dev",
+      "founder": "Anthony Fu",
+      "team_size": "1",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "~$150K+ ARR via sponsorships",
+      "pricing_model": "Sponsorships",
+      "price_point": "N/A",
+      "tech_stack": "JavaScript/TypeScript",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "GitHub",
+        "Open source"
+      ],
+      "description": "Atomic CSS engine, test runner, Vue utilities.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "dark-reader",
+      "name": "Dark Reader",
+      "url": "https://darkreader.org",
+      "founder": "Alexander Pletnev",
+      "team_size": "1",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "~$120K ARR self-reported",
+      "pricing_model": "Freemium (donation + app)",
+      "price_point": "Free-$5",
+      "tech_stack": "Browser extension",
+      "niche": "Productivity",
+      "acquisition_channels": [
+        "Chrome Web Store organic",
+        "Word of mouth"
+      ],
+      "description": "Dark mode for every website.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "dracula-theme",
+      "name": "Dracula Theme",
+      "url": "https://draculatheme.com",
+      "founder": "Zeno Rocha",
+      "team_size": "1",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "~$100K+ ARR (PRO) self-reported",
+      "pricing_model": "Paid PRO version",
+      "price_point": "$79",
+      "tech_stack": "Design assets",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "GitHub",
+        "Design community"
+      ],
+      "description": "Dark theme for 300+ apps + PRO pack.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "sindre-sorhus-packages",
+      "name": "Sindre Sorhus packages",
+      "url": "https://sindresorhus.com",
+      "founder": "Sindre Sorhus",
+      "team_size": "1",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "$100K+ ARR via sponsorships",
+      "pricing_model": "Sponsorships",
+      "price_point": "N/A",
+      "tech_stack": "JavaScript",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "npm",
+        "GitHub"
+      ],
+      "description": "1000+ open-source npm packages (Chalk, Refined GitHub).",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "tailscan",
+      "name": "Tailscan",
+      "url": "https://tailscan.com",
+      "founder": "Erwin Lengkeek",
+      "team_size": "1",
+      "revenue_band": "$1-5K MRR",
+      "revenue_note": "~$40K ARR self-reported",
+      "pricing_model": "Paid extension",
+      "price_point": "$29-$49",
+      "tech_stack": "Browser extension",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "Chrome Web Store"
+      ],
+      "description": "Tailwind CSS devtools browser extension.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "digital-inspiration-(labnol)",
+      "name": "Digital Inspiration (labnol)",
+      "url": "https://www.labnol.org",
+      "founder": "Amit Agarwal",
+      "team_size": "1",
+      "revenue_band": "$100K+ MRR",
+      "revenue_note": "$9.8M ARR across Google Workspace add-ons",
+      "pricing_model": "Paid add-ons + ads",
+      "price_point": "$29-$99/yr",
+      "tech_stack": "Google Apps Script",
+      "niche": "Productivity",
+      "acquisition_channels": [
+        "SEO (huge blog traffic)",
+        "Google Workspace Marketplace"
+      ],
+      "description": "Suite of Google Workspace add-ons: Mail Merge, Document Studio, Form Notifications.",
+      "verified_source": "TechSolopreneurs (self-reported)"
+    },
+    {
+      "id": "coolify",
+      "name": "Coolify",
+      "url": "https://coolify.io",
+      "founder": "Andras Bacsai",
+      "team_size": "1",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "Open-source; publicly reported growing sponsorship + cloud revenue",
+      "pricing_model": "Freemium (self-host free, cloud paid)",
+      "price_point": "$5-$20/mo",
+      "tech_stack": "PHP/Laravel, open source",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "X/Twitter",
+        "GitHub",
+        "HN"
+      ],
+      "description": "Open-source self-hostable Heroku/Netlify alternative.",
+      "verified_source": "Founder (public)"
+    },
+    {
+      "id": "pocketbase",
+      "name": "PocketBase",
+      "url": "https://pocketbase.io",
+      "founder": "Gani Georgiev",
+      "team_size": "1",
+      "revenue_band": "$1-5K MRR",
+      "revenue_note": "Open-source; GitHub sponsors",
+      "pricing_model": "Sponsorships + donations",
+      "price_point": "N/A",
+      "tech_stack": "Go, open source",
+      "niche": "Dev Tools",
+      "acquisition_channels": [
+        "GitHub",
+        "HN"
+      ],
+      "description": "Open-source backend in a single Go binary (auth, realtime DB, file storage).",
+      "verified_source": "Founder (public)"
+    },
+    {
+      "id": "alfred",
+      "name": "Alfred",
+      "url": "https://www.alfredapp.com",
+      "founder": "Andrew Pepperrell",
+      "team_size": "1-2",
+      "revenue_band": "$20-50K MRR",
+      "revenue_note": "Long-running paid Powerpack licenses; publicly reported strong revenue",
+      "pricing_model": "One-time license",
+      "price_point": "\u00a334",
+      "tech_stack": "Native macOS",
+      "niche": "Productivity",
+      "acquisition_channels": [
+        "Word of mouth",
+        "Mac community"
+      ],
+      "description": "Spotlight-replacement launcher and workflow automation for macOS.",
+      "verified_source": "Public reports"
+    },
+    {
+      "id": "bartender",
+      "name": "Bartender",
+      "url": "https://www.macbartender.com",
+      "founder": "Ben Surtees",
+      "team_size": "1",
+      "revenue_band": "$5-20K MRR",
+      "revenue_note": "Paid Mac app, long-running indie business",
+      "pricing_model": "One-time license",
+      "price_point": "$16",
+      "tech_stack": "Native macOS",
+      "niche": "Productivity",
+      "acquisition_channels": [
+        "Mac community",
+        "Word of mouth"
+      ],
+      "description": "Menu bar icon organizer for macOS.",
+      "verified_source": "Public reports"
+    }
+  ],
+  "meta": {
+    "generated": "2026-10-09",
+    "count": 51,
+    "note": "All entries are real companies/founders with publicly self-reported revenue. Revenue bands are approximate."
+  }
+}

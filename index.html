@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ProfitMap — Which one-person businesses actually pay rent</title>
+<meta name="description" content="A living directory of profitable one-person SaaS — the niche, the stack, the price, and where the first 500 users came from.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="hero">
+  <nav class="nav">
+    <div class="logo">🗺️ ProfitMap</div>
+    <div class="nav-links">
+      <a href="#directory">Directory</a>
+      <a href="#niches">Niche Scores</a>
+      <a href="#submit">Submit</a>
+      <a href="#digest" class="btn btn-sm">Get the digest</a>
+    </div>
+  </nav>
+  <div class="hero-inner">
+    <h1>Find out which one-person businesses actually <em>pay rent.</em></h1>
+    <p class="lede">ProfitMap tracks profitable one-person SaaS — the niche, the stack, the price, and where the first 500 users came from. No guru advice. Just data.</p>
+    <ul class="hero-points">
+      <li><span id="stat-entries">50+</span> verified profitable one-person SaaS, updated weekly</li>
+      <li>See exactly which channels brought the first paid users</li>
+      <li>Niche scores so you pick a market with buyers, not a graveyard</li>
+      <li>Founders can claim and verify their listing</li>
+    </ul>
+    <div class="hero-cta">
+      <a href="#directory" class="btn btn-primary">Browse the free directory</a>
+      <a href="#deepdive" class="btn btn-secondary">Niche deep-dive — $49</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- ============ DIRECTORY ============ -->
+  <section id="directory" class="section">
+    <h2>The Directory</h2>
+    <p class="section-sub">Every entry is a real product with publicly self-reported revenue. Click any card for the full breakdown.</p>
+
+    <div class="controls">
+      <input type="search" id="search" placeholder="Search products, founders, stacks…" aria-label="Search directory">
+      <select id="filter-niche" aria-label="Filter by niche"><option value="">All niches</option></select>
+      <select id="filter-band" aria-label="Filter by revenue band">
+        <option value="">All revenue bands</option>
+        <option>$1-5K MRR</option><option>$5-20K MRR</option><option>$20-50K MRR</option>
+        <option>$50-100K MRR</option><option>$100K+ MRR</option>
+      </select>
+      <select id="filter-pricing" aria-label="Filter by pricing model">
+        <option value="">All pricing models</option>
+        <option>Subscription</option><option>One-time purchase</option><option>Freemium subscription</option>
+        <option>Paid licenses</option><option>Sponsorships</option>
+      </select>
+      <select id="sort" aria-label="Sort">
+        <option value="band-desc">Revenue: high → low</option>
+        <option value="band-asc">Revenue: low → high</option>
+        <option value="name">Name A–Z</option>
+      </select>
+    </div>
+    <p class="result-count" id="result-count"></p>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <!-- ============ NICHE SCORES ============ -->
+  <section id="niches" class="section alt">
+    <h2>Niche Scores</h2>
+    <p class="section-sub">Demand signal vs. visible competition, computed from directory data. Higher = more money flowing to fewer players.</p>
+    <div class="niche-grid" id="niche-grid"></div>
+    <p class="fineprint">Scores are directional, derived from reported revenue bands and entry counts in this directory — not financial advice.</p>
+  </section>
+
+  <!-- ============ DEEP DIVE / PRO ============ -->
+  <section id="deepdive" class="section">
+    <h2>Go deeper</h2>
+    <div class="pricing">
+      <div class="price-card">
+        <h3>Niche Deep-Dive Report</h3>
+        <p class="price">$49 <span>one-time</span></p>
+        <ul>
+          <li>Top 20 apps in your niche</li>
+          <li>Pricing analysis</li>
+          <li>Acquisition channel playbooks</li>
+        </ul>
+        <button class="btn btn-secondary" data-interest="deep-dive">Notify me at launch</button>
+      </div>
+      <div class="price-card featured">
+        <h3>ProfitMap Pro</h3>
+        <p class="price">$12<span>/mo</span></p>
+        <ul>
+          <li>Alerts when new profitable apps appear in your niches</li>
+          <li>CSV export of the full directory</li>
+          <li>Full acquisition-channel data</li>
+        </ul>
+        <button class="btn btn-primary" data-interest="pro">Notify me at launch</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SUBMIT ============ -->
+  <section id="submit" class="section alt">
+    <h2>Are you a profitable solo founder?</h2>
+    <p class="section-sub">Claim your listing or submit a new one. Verification = revenue screenshot or public MRR post.</p>
+    <form id="submit-form" class="form">
+      <label>Product name <input name="name" required></label>
+      <label>Product URL <input name="url" type="url" required placeholder="https://…"></label>
+      <label>Your name <input name="founder" required></label>
+      <label>Revenue band
+        <select name="band" required>
+          <option>$1-5K MRR</option><option>$5-20K MRR</option><option>$20-50K MRR</option>
+          <option>$50-100K MRR</option><option>$100K+ MRR</option>
+        </select>
+      </label>
+      <label>How did your first 100–500 paid users find you?
+        <textarea name="channels" rows="3" required placeholder="e.g. HN launch, Twitter build-in-public, SEO…"></textarea>
+      </label>
+      <label>Verification (link to public revenue post or screenshot)
+        <input name="proof" type="url" required placeholder="https://…">
+      </label>
+      <button type="submit" class="btn btn-primary">Submit for review</button>
+      <p class="form-note" id="submit-note"></p>
+    </form>
+  </section>
+
+  <!-- ============ DIGEST ============ -->
+  <section id="digest" class="section">
+    <h2>The weekly digest</h2>
+    <p class="section-sub">Newly added and newly verified profitable apps, every week. Free.</p>
+    <form id="digest-form" class="form inline">
+      <input type="email" name="email" required placeholder="you@example.com" aria-label="Email address">
+      <button type="submit" class="btn btn-primary">Subscribe</button>
+      <p class="form-note" id="digest-note"></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>ProfitMap — built by the Agent Army. Data is self-reported by founders and directional, not audited.</p>
+  <p><a href="data/directory.json">Raw data (JSON)</a> · <a href="https://github.com/ishandutta2007/techsolopreneurs">Revenue sources</a></p>
+</footer>
+
+<!-- Detail modal -->
+<div class="modal-backdrop" id="modal-backdrop" hidden>
+  <div class="modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modal-close" aria-label="Close">×</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
