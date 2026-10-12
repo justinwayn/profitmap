@@ -5,6 +5,29 @@
   var BAND_ORDER = { "$1-5K MRR": 1, "$5-20K MRR": 2, "$20-50K MRR": 3, "$50-100K MRR": 4, "$100K+ MRR": 5 };
   var entries = [];
 
+  var CONFIG = (window.PROFITMAP_CONFIG || {});
+  var PAYMENT_LINK_CONFIGURED = typeof CONFIG.paymentLinkUrl === "string" &&
+    CONFIG.paymentLinkUrl.indexOf("REPLACE_ME") === -1;
+
+  /* Privacy-friendly analytics: inject Plausible only when a real domain
+     is configured. No script tag, no cookies, no tracking when unconfigured. */
+  function initAnalytics() {
+    var domain = CONFIG.plausibleDomain;
+    if (typeof domain !== "string" || domain.indexOf("REPLACE_ME") !== -1) return;
+    var s = document.createElement("script");
+    s.defer = true;
+    s.setAttribute("data-domain", domain);
+    s.src = "https://plausible.io/js/script.js";
+    document.head.appendChild(s);
+  }
+
+  /* Guarded event tracker — no-op until Plausible is configured and loaded. */
+  function track(eventName, props) {
+    try {
+      if (typeof window.plausible === "function") window.plausible(eventName, { props: props || {} });
+    } catch (err) { /* analytics must never break the page */ }
+  }
+
   var $ = function (id) { return document.getElementById(id); };
   var cardsEl = $("cards"), searchEl = $("search"),
       nicheEl = $("filter-niche"), bandEl = $("filter-band"),
@@ -118,7 +141,33 @@
     } catch (err) { return false; }
   }
 
+  /* $49 Deep-Dive checkout: real Stripe Payment Link when configured,
+     graceful "notify me" fallback until Justin pastes his link in config.js. */
+  function wireCheckout() {
+    var btn = document.getElementById("deepdive-buy");
+    if (!btn) return;
+    if (PAYMENT_LINK_CONFIGURED) {
+      btn.href = CONFIG.paymentLinkUrl;
+      btn.target = "_blank";
+      btn.rel = "noopener";
+      btn.addEventListener("click", function () {
+        track("DeepDiveCheckoutClick", { product: "deep-dive-report", price: "49" });
+      });
+    } else {
+      btn.addEventListener("click", function (ev) {
+        ev.preventDefault();
+        var email = prompt("Checkout isn't live yet — enter your email and we'll notify you when the $49 report is ready:");
+        if (email && /.+@.+\..+/.test(email)) {
+          saveLocal("profitmap_interest", { product: "deep-dive", email: email });
+          btn.textContent = "✓ You're on the list";
+        }
+      });
+    }
+  }
+
   function init() {
+    initAnalytics();
+    wireCheckout();
     fetch("data/directory.json").then(function (r) { return r.json(); }).then(function (d) {
       entries = d.entries || [];
       $("stat-entries").textContent = entries.length + "+";
