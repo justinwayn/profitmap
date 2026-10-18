@@ -10,6 +10,7 @@
  * file ships with the site, so edit it at deploy time (or per-environment).
  */
 window.PROFITMAP_CONFIG = {
-  paymentLinkUrl: "https://buy.stripe.com/REPLACE_ME",   // e.g. "https://buy.stripe.com/3cs6oK..."
+  paymentLinkUrl: "https://buy.stripe.com/cNi28r7Fa2j5aQw1oQdZ604",   // ProfitMap Niche Deep-Dive $49 one-time (wired 2026-10-18)
+  profitmapProLinkUrl: "https://buy.stripe.com/cNifZh5x2f5R6Agd7ydZ605",   // ProfitMap Pro $12/mo (created 2026-10-18)
   plausibleDomain: "REPLACE_ME"                          // e.g. "profitmap.example.com"
 };
