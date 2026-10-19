@@ -165,9 +165,36 @@
     }
   }
 
+  /* $12/mo Pro checkout: real Stripe Payment Link when configured,
+     graceful "notify me" fallback until then. */
+  function wirePro() {
+    var btn = document.getElementById("pro-buy");
+    if (!btn) return;
+    var configured = typeof CONFIG.profitmapProLinkUrl === "string" &&
+      CONFIG.profitmapProLinkUrl.indexOf("REPLACE_ME") === -1;
+    if (configured) {
+      btn.href = CONFIG.profitmapProLinkUrl;
+      btn.target = "_blank";
+      btn.rel = "noopener";
+      btn.addEventListener("click", function () {
+        track("ProCheckoutClick", { product: "profitmap-pro", price: "12" });
+      });
+    } else {
+      btn.addEventListener("click", function (ev) {
+        ev.preventDefault();
+        var email = prompt("Checkout isn't live yet — enter your email and we'll notify you when Pro opens:");
+        if (email && /.+@.+\..+/.test(email)) {
+          saveLocal("profitmap_interest", { product: "pro", email: email });
+          btn.textContent = "\u2713 You're on the list";
+        }
+      });
+    }
+  }
+
   function init() {
     initAnalytics();
     wireCheckout();
+    wirePro();
     fetch("data/directory.json").then(function (r) { return r.json(); }).then(function (d) {
       entries = d.entries || [];
       $("stat-entries").textContent = entries.length + "+";

@@ -80,6 +80,9 @@ a { color: var(--accent2); }
 .price span { font-size: 1rem; font-weight: 400; color: var(--muted); }
 .price-card ul { padding-left: 1.2rem; color: #c9cede; }
 .price-card li { margin: .35rem 0; }
+.offer-note { color: #c9cede; }
+.offer-how { color: var(--muted); font-size: .9rem; }
+.offer-how a { color: var(--accent); }
 
 /* Forms */
 .form { display: grid; gap: .9rem; max-width: 560px; margin-top: 1.25rem; }
